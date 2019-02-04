@@ -1,0 +1,93 @@
+name,height,weight/build,skeletal,color,texture,"""with"" pattern",habitat,diet,characteristics1,characteristics2,uses,rarity,behavior/personality/demeanor,social organization
+fred,1 inch,heavily muscled,four legged,red,scales,stripes,tundra,leaves,a rending beak,mimics sounds,valuable pelt,singular,aggressive,solitary
+hank,3 inches,fat,six legged,orange,fur,spots,plains,grass,sharp claws,senses tremors,valuable bones,overpopulated?,shy,small packs
+deer,6 inches,very dense,two legged,yellow,skin,speckles,reef,meat,diamond hooves,piercing howl,valuable eggs,common,hostile,small herds
+megalodon,1 foot,wiry,four armed,dark green,wool,a white mane,cave,rodents,steel hooves,undead,can be ridden,uncommon,destructive,small flocks
+,2 feet,gaunt,finned,blue,hair,bands,dunes,berries,iron hooves,skeletal,can be tamed,rare,threatening,large packs
+,3 feet,slender,two winged,purple,feathers,streaks,jungle,nuts,a steel beak,venomous bite,can be milked,very rare,protective,large herds
+,4 feet,lanky,four winged,black,quills,a white belly,forest,,long tusks,bony armor,lay eggs,very common,belligerent,large flocks
+,5 feet,plump,legless,white,chitin,blotches,marsh,carcasses,long fangs,bony spines,draft beasts,endangered,insane,colonies
+,6 feet,stocky,eight legged,gray,fleece,limbs,arctic,marrow,a razor beak,exposed brain,prized eggs,extinct,lethargic,tribes
+,7 feet,heavyset,tentacled,brown,plating,a blue head,hill,blood,razor teeth,exposed skull,prized hide,commonplace,patient,small swarms
+,8 feet,sinewy,amorphous,sandy brown,carapace,[nothing],swamp,fish,grinding teeth,can speak,healing blood,numerous,prideful,large swarms
+,9 feet,stout,many limbed,bright green,pelt,a white stripe,river,birds,a long horn,psychic,blood of youth,legendary,arrogant,small broods
+,10 feet,lightly built,,tan,hide,a white tail,lake,insects,a short horn,casts spells,healing mucous,mythical,intrusive,large broods
+,12 feet,heavily built,,sable,,,sea,dogs,diamond horns,regenerates,valuable eyes,,quarrelsome,family units
+,16 feet,,,silver,,,beach,cats,wields weapons,levitates,magic blood,,militant,pairs
+,20 feet,,,golden,,,rocks,humanoids,bone horns,agile,poison blood,,calm,trios
+,,,,copper,,,wasteland,horses,antlers,swift,strong leather,,easygoing,clans
+,,,,charcoal,,,sewer,reptiles,a spiked tail,indestructible,good mounts,,bold,small prides
+,,,,rusty,,,mountain,snakes,a stinger,spider climbs,good meat,,energetic,large prides
+,,,,chestnut,,,cliff,bamboo,a broad bill,camouflage,bad meat,,hyperactive,colonies
+,,,,russet,,,valley,shellfish,hooked claws,thick hide,good leather,,territorial,large nests
+,,,,auburn,,,wetland,ants,spurs,armored hide,soft leather,,meek,small nests
+,,,,tawny,,,savanna,flies,prehensile tail?,keen nose,valuable lard,,brazen,mated pairs
+,,,,amber,,,riverbed,bats,wields a sword,keen ears,make honey,,vain,
+,,,,umber,,,stream,flowers,wields knives,poison spines,loyal pets,,coy,
+,,,,ochre,,,pond,oats,wileds a club,breathes fire,strong mounts,,fearful,
+,,,,dark blue,,,grassland,honey,weak teeth,breathes frost,fast mounts,,hesitant,
+,,,,dark red,,,steppe,fungi,brittle teeth,polymorphs,poor mounts,,timid,
+,,,,pink,,,estuary,mushrooms,brittle antlers,shrinks/grows,poor pets,,wary,
+,,,,teal,,,ice,moss,blade arms,swallows whole,can be shorn,,skittish,
+,,,,coral,,,snow,grubs,talons,sets traps,tasty sausage,,antisocial,
+,,,,cobalt,,,volcano,eggs,tentacles,vanishes,tasty meat,,fearless,
+,,,,turquoise,,,tree,worms,powerful trunk,teleports,tasty eggs,,gallant,
+,,,,navy,,,urban,vegetables?,long trunk,eye beams,tasty in soup,,foolhardy,
+,,,,seafoam,,,bog,rotten meat?,long neck,hypnotic eye,valuable glands?,,wise,
+,,,,light blue,,,bayou,fruits,curled horns,hypnotic eyes,magic glands,,reckless,
+,,,,pale blue,,,lagoon,rocks,spiral horns,stunning venom,tasty brains,,sassy,
+,,,,pale red,,,mud,wood,a spiral horn,lethal venom,tasty liver,,careful,
+,,,,pale orange,,,island,metal,a spiral tail,lethal gaze,edible bones,,cunning,
+,,,,pale yellow,,,cloud,,a heavy tail,hypnotic tail,foul meat,,crafty,
+,,,,pale green,,,pit,,a bladed tail,hungerless,tasty blood,,clever,
+,,,,olive,,,space,,a toxic tongue,telepathic,valuable dung,,tactful,
+,,,,translucent,,,plateau,,a sticky tongue,fireproof,greasy meat,,calculating,
+,,,,glowing blue,,,woodland,,a sticky tail,frostproof,greasy liver,,smart,
+,,,,glowing red,,,shrubland,,a flaming tail,lightningproof,magic heart,,perceptive,
+,,,,,,,alpine,,flaming horns,hexproof,magic liver,,idiotic,
+,,,,,,,desert,,electric horns,casts curses,magic kidneys,,irrational,
+,,,,,,,mire,,electric claws,casts hexes,valuable oil,,vigilant,
+,,,,,,,fen,,pincers,soft stomach,soft pelt,,hot tempered,
+,,,,,,,moor,,crystal hooves,weak stomach,magic bones,,ferocious,
+,,,,,,,tropic,,whip tail,poor vitality,foul mucous,,fierce,
+,,,,,,,lowland,,stinger tail,sensitive eyes,magic saliva,,savage,
+,,,,,,,,,wide tail,sensitive ears,poison saliva,,cruel,
+,,,,,,,,,tail strangles,sensitive nose,tasty flesh,,kind hearted,
+,,,,,,,,,powerful jaws,blind,tasty marrow,,malevolent,
+,,,,,,,,,floppy ears,brittle bones,rare pigment,,feral,
+,,,,,,,,,pointed ears,deaf,strong tendons,,brutish,
+,,,,,,,,,long snout,shoots quills,strong sinews,,tame,
+,,,,,,,,,short snout,shoots spines,tasty cheese,,bloodthirsty,
+,,,,,,,,,blunt snout,burrows,tasty milk,,apathetic,
+,,,,,,,,,delicate paws,jumps high,foul milk,,gentle,
+,,,,,,,,,,jumps far,foul cheese,,nonviolent,
+,,,,,,,,,,quick tempers,hoards gems,,peaceful,
+,,,,,,,,,,hard shell,hoards gold,,wrathful,
+,,,,,,,,,,shell armor,hoards silver,,noble,
+,,,,,,,,,,heat resistant,,,suicidal,
+,,,,,,,,,,brittle armor,,,reclusive,
+,,,,,,,,,,sleepless,,,aloof,
+,,,,,,,,,,hypnotic song,,,misanthropic,
+,,,,,,,,,,gaze stuns,,,unfriendly,
+,,,,,,,,,,chilling gaze,,,sociable,
+,,,,,,,,,,frightful gaze,,,peevish,
+,,,,,,,,,,charming gaze,,,surly,
+,,,,,,,,,,charming song,,,,
+,,,,,,,,,,ethereal,,,,
+,,,,,,,,,,toxic barbs,,,,
+,,,,,,,,,,toxic skin,,,,
+,,,,,,,,,,shoots venom,,,,
+,,,,,,,,,,shoots acid,,,,
+,,,,,,,,,,spits acid,,,,
+,,,,,,,,,,spits venom,,,,
+,,,,,,,,,,spits slime,,,,
+,,,,,,,,,,sticky trail,,,,
+,,,,,,,,,,spins webs,,,,
+,,,,,,,,,,spins silk,,,,
+,,,,,,,,,,itchy oil,,,,
+,,,,,,,,,,stench spray,,,,
+,,,,,,,,,,slippery oil,,,,
+,,,,,,,,,,thick skin,,,,
+,,,,,,,,,,thin skin,,,,
+,,,,,,,,,,tells fortunes,,,,
+,,,,,,,,,,knows future,,,,
