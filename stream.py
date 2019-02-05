@@ -1,18 +1,13 @@
 import csv
-from os import environ
+import os
 
-from flask import Flask 
 import tweepy
 
-#web server needed to host on heroku
-app = Flask(__name__)
-app.run(environ.get('PORT'))
-
 #twitter API keys
-CONSUMER_KEY = environ.get('CONSUMER_KEY')
-CONSUMER_SECRET = environ.get('CONSUMER_SECRET')
-ACCESS_KEY = environ.get('ACCESS_KEY')
-ACCESS_SECRET = environ.get('ACCESS_SECRET')
+CONSUMER_KEY = os.environ.get('CONSUMER_KEY')
+CONSUMER_SECRET = os.environ.get('CONSUMER_SECRET')
+ACCESS_KEY = os.environ.get('ACCESS_KEY')
+ACCESS_SECRET = os.environ.get('ACCESS_SECRET')
 
 def loadCategories(filename):
 	categories = []
@@ -72,4 +67,3 @@ myStream.filter(track=['@fabricreature'])
 
 #myStream.filter(track=['python'], async=True)
 #TODO: make this async so I can periodically wake up the heroku dyno (if necessary)
-#test1
