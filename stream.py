@@ -9,6 +9,8 @@ CONSUMER_SECRET = os.environ.get('CONSUMER_SECRET')
 ACCESS_KEY = os.environ.get('ACCESS_KEY')
 ACCESS_SECRET = os.environ.get('ACCESS_SECRET')
 
+print(ACCESS_SECRET)
+
 def zip_keys(word, n=2):
     # Zip a tuple of the each set of <n> consecutive letters with the letter after that
     return zip(zip(*[word[i:] for i in range(n)]), word[n:])
@@ -24,7 +26,7 @@ class Fabricreature(object):
 	def make_creature(self, text):
 		name = self.generate_name(text)
 		description = self.generate_description(text)
-		return name + ": " + description
+		return name.capitalize() + ": " + description
 
 	#generate descriptions
 	def load_descriptions(self, filename):
@@ -114,8 +116,8 @@ class Fabricreature(object):
 		return max_idx + minimum
 
 fc = Fabricreature('names.txt', 'data.csv')
-# text = 'hank 5 feet gaunt four legged rusty scales bands plateau fungi talons frostproof valuable glands? uncommon reclusive small nests'
-# print(fc.make_creature(text))
+text = 'hank 5 feet gaunt four legged rusty scales bands plateau fungi talons frostproof valuable glands? uncommon reclusive small nests'
+print(fc.make_creature(text))
 
 class MyStreamListener(tweepy.StreamListener):
 
@@ -136,7 +138,7 @@ api = tweepy.API(auth)
 
 myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
-myStream.filter(track=['@fabricreature'])
+#myStream.filter(track=['@fabricreature'])
 
 #myStream.filter(track=['python'], async=True)
 #TODO: make this async so I can periodically wake up the heroku dyno (if necessary)
