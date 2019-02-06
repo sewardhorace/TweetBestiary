@@ -13,3 +13,9 @@ Make sure all requirements are installed
 (Deactivate when done)
 
 		$ deactivate
+
+
+Run on Heroku
+
+		$ git push heroku master
+		$ heroku ps:scale worker=1
