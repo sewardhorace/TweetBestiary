@@ -116,8 +116,8 @@ class Fabricreature(object):
 		return max_idx + minimum
 
 fc = Fabricreature('names.txt', 'data.csv')
-text = 'hank 5 feet gaunt four legged rusty scales bands plateau fungi talons frostproof valuable glands? uncommon reclusive small nests'
-print(fc.make_creature(text))
+# text = 'hank 5 feet gaunt four legged rusty scales bands plateau fungi talons frostproof valuable glands? uncommon reclusive small nests'
+# print(fc.make_creature(text))
 
 class MyStreamListener(tweepy.StreamListener):
 
@@ -138,7 +138,7 @@ api = tweepy.API(auth)
 
 myStreamListener = MyStreamListener()
 myStream = tweepy.Stream(auth = api.auth, listener=myStreamListener)
-#myStream.filter(track=['@fabricreature'])
+myStream.filter(track=['@fabricreature'])
 
 #myStream.filter(track=['python'], async=True)
 #TODO: make this async so I can periodically wake up the heroku dyno (if necessary)
