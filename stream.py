@@ -116,8 +116,6 @@ class Fabricreature(object):
 		return max_idx + minimum
 
 fc = Fabricreature('names.txt', 'data.csv')
-# text = 'hank 5 feet gaunt four legged rusty scales bands plateau fungi talons frostproof valuable glands? uncommon reclusive small nests'
-# print(fc.make_creature(text))
 
 class MyStreamListener(tweepy.StreamListener):
 
